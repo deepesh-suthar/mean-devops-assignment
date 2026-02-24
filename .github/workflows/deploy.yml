@@ -1,0 +1,40 @@
+name: CI-CD Pipeline
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Login to Docker Hub
+      run: echo "${{ secrets.DOCKER_PASSWORD }}" | docker login -u "${{ secrets.DOCKER_USERNAME }}" --password-stdin
+
+    - name: Build Backend Image
+      run: docker build -t deepeshsuthar/mean-backend ./backend
+
+    - name: Build Frontend Image
+      run: docker build -t deepeshsuthar/mean-frontend ./frontend
+
+    - name: Push Images to Docker Hub
+      run: |
+        docker push deepeshsuthar/mean-backend
+        docker push deepeshsuthar/mean-frontend
+
+    - name: Deploy to EC2
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.EC2_HOST }}
+        username: ${{ secrets.EC2_USER }}
+        key: ${{ secrets.EC2_KEY }}
+        script: |
+          docker pull deepeshsuthar/mean-backend
+          docker pull deepeshsuthar/mean-frontend
+          docker rm -f backend frontend || true
+          docker run -d --name backend -p 8080:8080 deepeshsuthar/mean-backend
+          docker run -d --name frontend -p 80:80 deepeshsuthar/mean-frontend
