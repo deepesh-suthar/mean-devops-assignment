@@ -201,38 +201,55 @@ Backend:
 Add screenshots of:
 
 GitHub Actions success
-![GitHub Actions success](image.png)
-![GitHub Actions success](image-1.png)
-![GitHub Actions success](image-2.png)
+<img width="940" height="450" alt="image" src="https://github.com/user-attachments/assets/adbff3e6-41b6-488f-a26d-fbe667eccfc0" />
+<img width="940" height="475" alt="image" src="https://github.com/user-attachments/assets/17020b29-a223-499b-ad82-496a917d8630" />
+<img width="940" height="461" alt="image" src="https://github.com/user-attachments/assets/fdfde0c9-7f8e-4709-bd90-2cecaa8027e7" />
+<img width="940" height="389" alt="image" src="https://github.com/user-attachments/assets/bab5f3e9-3bcc-46de-b25a-b41dedcecb01" />
+
+
+
 
 Docker Hub images
-![Docker Hub images](image-3.png)
-![Docker Hub images](image-4.png)
-![Docker Hub images](image-5.png)
-![Docker Hub images](image-6.png)
+<img width="940" height="529" alt="image" src="https://github.com/user-attachments/assets/1b0895c0-a5c5-4531-badc-e0df05cfe3f4" />
+<img width="940" height="491" alt="image" src="https://github.com/user-attachments/assets/e6c111a4-2a55-4b01-8257-7a560ed88808" />
+
 
 
 EC2 docker ps
-![EC2 docker ps](image-7.png)
+<img width="940" height="473" alt="image" src="https://github.com/user-attachments/assets/e9affcd2-37ee-49ac-bcd7-aef6622e38d0" />
+
+
 
 
 Frontend UI
-![Frontend UI](image-8.png)
+
+<img width="1919" height="756" alt="image" src="https://github.com/user-attachments/assets/79318354-6093-439d-a1fd-6658e9fbad9a" />
+
 
 
 Backend API
-![Backend API](image-9.png)
+
+<img width="1919" height="618" alt="image" src="https://github.com/user-attachments/assets/997448af-5f77-44e6-b1fd-6ce2f34faaf2" />
+
 
 
 Nginx config
-![Nginx config](image-10.png)
-![Nginx config](image-11.png)
-![Nginx config](image-12.png)
+<img width="940" height="354" alt="image" src="https://github.com/user-attachments/assets/ee80ca76-dda9-4d10-b452-6bf249aad641" />
+
+<img width="940" height="389" alt="image" src="https://github.com/user-attachments/assets/4630bc9e-f0b5-4179-89c4-9d9a507092ff" />
+
+<img width="940" height="390" alt="image" src="https://github.com/user-attachments/assets/09204f49-b38c-41da-a5cb-8582854141d5" />
+
+
+
 
 EC2 instance page
-![EC2 instance page](image-13.png)
-![EC2 instance page](image-14.png)
-![EC2 instance page](image-15.png)
+<img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/c29907a9-f87f-449a-b529-ac40be8a095b" />
+<img width="940" height="470" alt="image" src="https://github.com/user-attachments/assets/2c1b7c65-5b73-4254-84b1-a503df082ef0" />
+<img width="940" height="500" alt="image" src="https://github.com/user-attachments/assets/ffcdd97e-f036-45b7-aa85-54da98a66daa" />
+
+
+
 
 ✅ Status
 
