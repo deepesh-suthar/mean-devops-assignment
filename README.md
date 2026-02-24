@@ -4,6 +4,8 @@
 **Name:** Deepesh Suthar  
 **Email:** deepeshsuthar23@gmail.com  
 
+Detail Report: https://drive.google.com/file/d/1Gjg1MhVriTjOOoj9XyQfEY5YQP0K3SdG/view?usp=sharing
+
 ---
 
 # 📌 Project Overview
