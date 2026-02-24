@@ -201,20 +201,38 @@ Backend:
 Add screenshots of:
 
 GitHub Actions success
-
+![GitHub Actions success](image.png)
+![GitHub Actions success](image-1.png)
+![GitHub Actions success](image-2.png)
 
 Docker Hub images
+![Docker Hub images](image-3.png)
+![Docker Hub images](image-4.png)
+![Docker Hub images](image-5.png)
+![Docker Hub images](image-6.png)
+
 
 EC2 docker ps
-![alt text](image.png)
+![EC2 docker ps](image-7.png)
+
 
 Frontend UI
+![Frontend UI](image-8.png)
+
 
 Backend API
+![Backend API](image-9.png)
+
 
 Nginx config
+![Nginx config](image-10.png)
+![Nginx config](image-11.png)
+![Nginx config](image-12.png)
 
 EC2 instance page
+![EC2 instance page](image-13.png)
+![EC2 instance page](image-14.png)
+![EC2 instance page](image-15.png)
 
 ✅ Status
 
